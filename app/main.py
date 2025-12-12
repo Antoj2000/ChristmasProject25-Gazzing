@@ -1,3 +1,5 @@
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, HTTPException
 from .schemas import DepotResolveRequest, DepotResolveResponse
 from .service import DepotService
@@ -7,7 +9,6 @@ app = FastAPI()
 @app.get("/api/health")
 def health_check():
     return {"status": "ok"}
-
 
 
 @app.get("/api/depot/{area}", response_model=DepotResolveResponse)
