@@ -38,7 +38,7 @@ DEPOT_MAP = {
     "cork": 28,
     "galway": 31,
     "mayo": 33,
-    "roscommmon": 32,
+    "roscommon": 32,
     "longford": 32,
     "sligo": 34,
     "leitrim": 34,
