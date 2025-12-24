@@ -1,2 +1,8 @@
-'nohup' is not recognized as an internal or external command,
-operable program or batch file.
+INFO:     Will watch for changes in these directories: ['C:\\Users\\johns\\OneDrive - Atlantic TU\\CICD3\\DPDProject\\GazzingCICD']
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Started reloader process [54108] using StatReload
+INFO:     Started server process [61628]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:50071 - "POST /api/depot HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:52410 - "POST /api/depot HTTP/1.1" 200 OK
